@@ -30,13 +30,10 @@
     gap: 3px;
     cursor: pointer;  
 }
-/* .nav-menu hr{
- border: none;
- width:80%;
- height: 3px;
- border-radius: 10px;
- background: #FF4141;
-} */
+.nav-menu li a{
+color: inherit;
+text-decoration: none;
+}
 .nav-login-cart{
     display: flex;
     align-items: center;
