@@ -21,7 +21,7 @@ function Navbar() {
             setMenu("shop");
           }}
         >
-          <Link to="/" style={menu === "shop" ? { color: "red" } : {}}>
+          <Link to="/" style={menu === "shop" ? { color: "#FF4141" } : {}}>
             Shop
           </Link>
         </li>
@@ -30,7 +30,7 @@ function Navbar() {
             setMenu("ladies");
           }}
         >
-          <Link to="/women" style={menu === "ladies" ? { color: "red" } : {}}>
+          <Link to="/women" style={menu === "ladies" ? { color: "#FF4141" } : {}}>
             Ladies
           </Link>
         </li>
@@ -39,7 +39,7 @@ function Navbar() {
             setMenu("gentlemen");
           }}
         >
-          <Link to="/men" style={menu === "gentlemen" ? { color: "red" } : {}}>
+          <Link to="/men" style={menu === "gentlemen" ? { color: "#FF4141" } : {}}>
             Gentlemen
           </Link>
         </li>
@@ -48,7 +48,7 @@ function Navbar() {
             setMenu("kids");
           }}
         >
-          <Link to="/kids" style={menu === "kids" ? { color: "red" } : {}}>
+          <Link to="/kids" style={menu === "kids" ? { color: "#FF4141" } : {}}>
             Kids
           </Link>
         </li>
