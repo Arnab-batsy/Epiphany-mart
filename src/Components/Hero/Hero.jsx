@@ -11,7 +11,7 @@ function Hero() {
         <h2>New Arrivals Only!</h2>
         <div>
           <div className="hero-hand-icon">
-            <p>New</p>
+            <p>Trendy</p>
             <img src={hand_icon} alt="hand-icon" />
           </div>
           <p>Collections</p>
